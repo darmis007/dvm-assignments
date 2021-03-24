@@ -30,6 +30,7 @@ can register.
 9. Make sure that a customer cannot place an order if there isn't sufficient money in his account or if the item is out of
 stock. Perform more checks if needed. Show appropriate error messages.
 10. Allow customers to change their address information.
+11. Allow customers to write reviews for orders they have PLACED and viewable by everyone.
 
 
 ### Phase 2: More features
@@ -50,6 +51,7 @@ and three footballs at the same time. This might need some refactoring of your m
 5. Allow customers to add items to their wishlists.
 6. Remember the *previous orders* list? If the user clicks on an order in this list he should be redirected to a new page where
 all details of this order are shown (for example, the time when the order was placed).
+7. Implement django-import-export package in the admin portal to download all orders placed on website excel sheet.
 
 
 ### Phase 3: Deploy!
@@ -71,7 +73,11 @@ considered complete even if you don't implement the following.
 * Allow vendors to show discounts on items.
 * Allow customers to order **multiple items** from **multiple vendors** at a time, just like you can order different things
 from different sellers at the same time on Amazon.
+* Allow vendor to generate a coupon code which can be applied at checkout and on only his products
 
+### Suggestions to Setup a Project
+* django-admin startproject
+* Docker (prefered)
 
 ### UX suggestions -
 If you want, you can make your app your way. But if you want to save yourself the time it'll take to come up with a proper
@@ -106,3 +112,4 @@ Basically, don't share any data that must be kept secret.
 **Hint**: Make a python file where you store all of these values as variables (sort of like C/C++ macros in a header file), then add this file to your gitignore. Generally, we prefer to call that file the keyconfig.
 
 *Assignment compiled by [dush-t](https://github.com/dush-t) from DVM*
+*Contributions done by [darmis007](https://github.com/darmis007) from DVM*
