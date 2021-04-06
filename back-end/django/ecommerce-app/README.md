@@ -56,7 +56,7 @@ all details of this order are shown (for example, the time when the order was pl
 
 ### Phase 3: Deploy!
 Your code is of no use unless it makes it to a production server!
-1. Sign up on DigitalOcean using [this referral link](https://m.do.co/c/258499a2d433) to get $100 credit for two months. (Do 
+1. Sign up on DigitalOcean using [this referral link](https://m.do.co/c/0cefdb3caa82) to get $100 credit for two months. (Do 
 not use your BITS ID for signing up).
 2. Create a droplet (a droplet is just a fancy word for a virtual private server by DigitalOcean). You can ssh into this server.
 3. Deploy your django application on the internet using nginx, gunicorn and supervisor. [This tutorial](https://rakibul.net/django-gunicorn-supervisor-nginx)
